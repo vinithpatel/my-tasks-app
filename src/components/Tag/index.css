@@ -1,0 +1,21 @@
+.tag-item {
+  margin-right: 10px;
+}
+
+.tag-button {
+  background-color: transparent;
+  border: 1px solid #f3aa4e;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+
+  font-family: 'Roboto';
+  color: #ffffff;
+
+  cursor: pointer;
+  outline: none;
+}
+
+.active-button {
+  background-color: #f3aa4e;
+}

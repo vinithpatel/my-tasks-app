@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-bg-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.create-task-container {
+  height: 100vh;
+  width: 30%;
+  background-color: #1a171d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-bg-container {
+  width: 90%;
+  height: 90%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px;
+}
+.create-task-heading {
+  font-family: 'Roboto';
+  color: #f3aa4e;
+  font-weight: 500;
+}
+.input-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.input-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.user-input {
+  width: 100%;
+  height: 40px;
+
+  padding: 10px;
+
+  border-width: 0px;
+  outline: none;
+  border-radius: 3px;
+
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+
+  margin-bottom: 30px;
+}
+
+.add-task-button {
+  background-color: #f3aa4e;
+
+  border-width: 0px;
+  border-radius: 5px;
+
+  width: 100px;
+  height: 35px;
+
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+
+  cursor: pointer;
+  outline: none;
+}
+
+.tags-and-task-view-bg-container {
+  height: 100vh;
+  width: 70%;
+  background-color: #131213;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.tags-and-task-view-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.tags-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.task-list-container {
+  list-style-type: none;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.no-task-view {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-task-heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
